@@ -39,64 +39,32 @@ public class Domain {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	public String getDescription() {
 		return description;
-	}
-
-	public void setDescription(String description) {
-		this.description = description;
 	}
 
 	public Integer getCode() {
 		return code;
 	}
 
-	public void setCode(Integer code) {
-		this.code = code;
-	}
-
 	public Boolean getEnabled() {
 		return enabled;
-	}
-
-	public void setEnabled(Boolean enabled) {
-		this.enabled = enabled;
 	}
 
 	public Integer getDdd() {
 		return ddd;
 	}
 
-	public void setDdd(Integer ddd) {
-		this.ddd = ddd;
-	}
-
 	public Integer getPrefix() {
 		return prefix;
-	}
-
-	public void setPrefix(Integer prefix) {
-		this.prefix = prefix;
 	}
 
 	public String getDefaultExtension() {
 		return defaultExtension;
 	}
 
-	public void setDefaultExtension(String defaultExtension) {
-		this.defaultExtension = defaultExtension;
-	}
-
 	public String getExitRouteCode() {
 		return exitRouteCode;
 	}
 
-	public void setExitRouteCode(String exitRouteCode) {
-		this.exitRouteCode = exitRouteCode;
-	}
-	
 }
